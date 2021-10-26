@@ -5,8 +5,8 @@ import {
 } from "@heroicons/react/outline"
 function Header() {
     return (
-        <header className="">
-        <div className="flex flex-grow justify-evenly">
+        <header className="flex flex-col sm:flex-row m-5">
+        <div className="flex flex-grow justify-evenly max-w-2xl ">
             <HeaderItem title="HOME" Icon={HomeIcon}/>
             <HeaderItem title="TRENDING" Icon={LightningBoltIcon}/>
             <HeaderItem title="VERIFIED" Icon={BadgeCheckIcon}/>
