@@ -6,7 +6,7 @@ import {
 function Header() {
     return (
         <header className="">
-        <div>
+        <div className="flex flex-grow justify-evenly">
             <HeaderItem title="HOME" Icon={HomeIcon}/>
             <HeaderItem title="TRENDING" Icon={LightningBoltIcon}/>
             <HeaderItem title="VERIFIED" Icon={BadgeCheckIcon}/>
