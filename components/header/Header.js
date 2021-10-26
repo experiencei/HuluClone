@@ -1,10 +1,13 @@
 import Image from "next/image"
-import HeaderItem from "../headerItem/HeaderItem"
+import HeaderItem from "../headerItem/HeaderItem";
+import {
+    HomeIcon, SearchIcon , CollectionIcon , UserIcon , LightningBoltIcon, BadgeCheckIcon
+} from "@heroicons/react/outline"
 function Header() {
     return (
         <header className="">
         <div>
-            <HeaderItem/>
+            <HeaderItem title="HOME" Icon={HomeIcon}/>
         </div>
             <Image
                  className="object-contain"

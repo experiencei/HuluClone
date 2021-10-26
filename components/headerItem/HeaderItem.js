@@ -1,4 +1,4 @@
-function HeaderItem() {
+function HeaderItem({ title , Icon}) {
     return (
         <div>
             
