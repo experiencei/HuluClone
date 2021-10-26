@@ -1,8 +1,11 @@
+import Image from "next/image"
 function Header() {
     return (
-        <div>
-            
-        </div>
+        <header className="">
+            <Image
+
+            />
+        </header>
     )
 }
 
