@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/header/Header'
 import Nav from '../components/nav/Nav'
+import Results from '../components/results/Results'
 
 
 export default function Home() {
@@ -13,6 +14,11 @@ export default function Home() {
       </Head>
       <Header/>
       <Nav/>
+      <Results/>
     </div>
   )
+}
+
+export async function getServerSideProps(context){
+  
 }
